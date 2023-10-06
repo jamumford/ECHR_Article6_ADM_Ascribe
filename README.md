@@ -47,7 +47,7 @@ Mumford J, Atkinson K, Bench-Capon T. (2023). Combining a Legal Knowledge Model 
 
 2. **Summary Annotation Files**:
     - Location: `Analysis/`
-    - Contains 6 JSON files that provide summarized annotations.
+    - Contains 6 JSON files that provide summarised annotations.
     - Each JSON file aggregates data from multiple cases and presents them as key-value pairs.
     - Example File: `Overall_non_stats.json`
 
