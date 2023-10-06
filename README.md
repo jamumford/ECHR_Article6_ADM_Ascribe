@@ -86,3 +86,7 @@ Please refer to the `LICENSE` file in the repository for usage rights and restri
 ### Acknowledgements
 
 We would like to thank all the annotators who contributed to this dataset, providing invaluable insights into the cases related to Article 6 from the ECtHR.
+
+## Contact
+
+For any questions or support, please contact Dr Jack Mumford at jack [dot] mumford [at] liverpool [dot] ac [dot] uk
