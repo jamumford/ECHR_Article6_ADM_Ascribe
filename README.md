@@ -3,7 +3,7 @@
 
 ### Overview
 
-This repository contains datasets detailing annotations for cases related to Article 6 from the European Court of Human Rights (ECtHR). Annotations have been provided by individual annotators and are also summarised for easier analysis.
+This repository contains datasets detailing annotations for cases related to Article 6 from the European Court of Human Rights (ECtHR). Annotations have been provided by 27 individual annotators and are also summarised for easier analysis.
 
 ### Related Publications
 
@@ -41,15 +41,15 @@ Mumford J, Atkinson K, Bench-Capon T. (2023). Combining a Legal Knowledge Model 
 
 1. **Individual Annotator Files**:
     - Location: `final_json_outputs/[domain or general]/[anonymised participant id]/`
-    - Contains 54 sets of annotations, with 2 json files per annotator.
-    - Each JSON file represents a case with associated annotations, provided as key-value pairs.
-    - Example File: `3aub7_article6_non_cases.json`
+    - Contains 54 sets of annotations, with 2 json files per annotator: one for violation cases, and the other for no-violation cases.
+    - Each JSON file represents a set of cases with associated annotations, provided as key-value pairs.
+    - Example File (corresponding to annotations on no-violation cases, produced by anonymised annotator 3aub7): `3aub7_article6_non_cases.json`.
 
 2. **Summary Annotation Files**:
     - Location: `Analysis/`
     - Contains 6 JSON files that provide summarised annotations.
     - Each JSON file aggregates data from multiple cases and presents them as key-value pairs.
-    - Example File: `Overall_non_stats.json`
+    - Example File (compiling annotations across all annotators for no-violation cases): `Overall_non_stats.json`.
 
 ### Data Format
 
