@@ -67,7 +67,7 @@ For a single case, the data might look like:
     "001-187689": {
         "CRIMINAL LIMB?": [26, 0, 1],
         "FLAGGED?": [2, 0, 25],
-        "FAIR:" [24, 3, 0],
+        "FAIR": [24, 3, 0],
         ...
     }
 }
