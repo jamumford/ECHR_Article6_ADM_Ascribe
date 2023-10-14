@@ -9,9 +9,6 @@ This repository contains datasets detailing annotations for cases related to Art
 
 If you use the datasets provided in this repository, or if you want to gain a deeper understanding of the context and methods behind the creation of these datasets, please refer to the following paper:
 
-**Combining a Legal Knowledge Model with Machine Learning for Reasoning with Legal Cases**
-
-Citation Format:
 Mumford J, Atkinson K, Bench-Capon T. (2023). Combining a Legal Knowledge Model with Machine Learning for Reasoning with Legal Cases. In Proceedings of the Nineteenth International Conference on Artificial Intelligence and Law. https://doi.org/10.1145/3594536.3595158
 
 
