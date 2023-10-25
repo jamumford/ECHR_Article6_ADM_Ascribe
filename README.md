@@ -5,7 +5,7 @@
 
 This repository contains datasets detailing annotations for cases related to Article 6 from the European Court of Human Rights (ECtHR). Annotations have been provided by 27 individual annotators and are also summarised for easier analysis.
 
-### Citation of resource
+### Citation of Resource
 
 If you use the datasets provided in this repository, or if you want to gain a deeper understanding of the context and methods behind the creation of these datasets, please refer to the following paper:
 
