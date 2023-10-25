@@ -82,7 +82,7 @@ Please refer to the `LICENSE` file in the repository for usage rights and restri
 
 ### Acknowledgements
 
-We would like to thank all the annotators who contributed to this dataset, providing invaluable insights into the cases related to Article 6 from the ECtHR.
+We would like to thank all the annotators who contributed to this dataset, providing invaluable insights into the cases related to Article 6 from the ECtHR. This work was supported by Towards Turing 2.0 under the EPSRC Grant D-ACAD-052 & The Alan Turing Institute.
 
 ## Contact
 
