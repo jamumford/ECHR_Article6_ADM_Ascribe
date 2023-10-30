@@ -25,7 +25,7 @@ Mumford J, Atkinson K, Bench-Capon T. (2023). *Combining a Legal Knowledge Model
 │       ├── [anonymised participant id]/
 │       │   ├── [anonymised]_article6_non_cases.json
 │       │   └── [anonymised]_article6_vio_cases.json
-└── Analysis/
+└── datasets/
     ├── Domain_non_stats.json
     ├── Domain_vio_stats.json
     ├── General_non_stats.json
@@ -43,7 +43,7 @@ Mumford J, Atkinson K, Bench-Capon T. (2023). *Combining a Legal Knowledge Model
     - Example File (corresponding to annotations on no-violation cases, produced by anonymised annotator 3aub7): `3aub7_article6_non_cases.json`.
 
 2. **Summary Annotation Files**:
-    - Location: `Analysis/`
+    - Location: `datasets/`
     - Contains 6 JSON files that provide summarised annotations.
     - Each JSON file aggregates data from multiple cases and presents them as key-value pairs.
     - Example File (compiling annotations across all annotators for no-violation cases): `Overall_non_stats.json`.
