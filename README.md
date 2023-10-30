@@ -3,11 +3,11 @@
 
 ### Overview
 
-This repository contains datasets detailing annotations for cases related to Article 6 from the European Court of Human Rights (ECtHR). Annotations have been provided by 27 individual annotators and are also summarised for easier analysis.
+This repository contains datasets detailing annotations for cases related to Article 6 from the European Court of Human Rights (ECtHR). Annotations have been provided by 27 individual annotators and are also summarised for easier analysis. Additionally, several scripts are provided for the analysis of the annotations (s4 - s6), and several other scripts are provided that allow a Hierarchical BERT model to be trained and tested on ascribing from Article 6 case descriptions to a legal knowledge model (ADM) that can explain the outcome.
 
 ### Citation of Resource
 
-If you use the datasets provided in this repository, or if you want to gain a deeper understanding of the context and methods behind the creation of these datasets, please refer to the following paper:
+If you use the datasets/code provided in this repository, or if you want to gain a deeper understanding of the context and methods behind the creation of these datasets/code, please refer to the following paper:
 
 Mumford J, Atkinson K, Bench-Capon T. (2023). *Combining a Legal Knowledge Model with Machine Learning for Reasoning with Legal Cases*. In Proceedings of the Nineteenth International Conference on Artificial Intelligence and Law. https://doi.org/10.1145/3594536.3595158
 
@@ -48,6 +48,16 @@ Mumford J, Atkinson K, Bench-Capon T. (2023). *Combining a Legal Knowledge Model
     - Each JSON file aggregates data from multiple cases and presents them as key-value pairs.
     - Example File (compiling annotations across all annotators for no-violation cases): `Overall_non_stats.json`.
 
+3. **Annotation Analysis Scripts**:
+    - Location: working directory
+    - Contains three python scripts for analysis: s4 indicates annotator agreement; s5 indicates annotator productivity; s6 indicates distribution of ascription to the legal knowledge model (ADM).
+
+4. **H-BERT Training and Testing Scripts**:
+    - Location: working directory
+    - Contains three python scripts for execution: s7 normalises the json annotations outputs; s8 allows learning weights to be propagated through the ADM legal knowledge model; s9 trains and tests the full H-BERT pipeline on an Article 6 corpus (please contact for corpus files).
+    - Requires util.py script and art6_angelic_design.csv file (which contains the ADM - legal knowledge model) for execution. Both of which must be placed in the working directory.
+    - Requires a relevant Article 6 corpus to be saved to location `datasets/roberta-base_data/'. For further details please contact.
+
 ### Data Format
 
 - Each JSON object in the file represents a single case.
@@ -75,6 +85,22 @@ Which indicates that for legal case 001-187689, 27 annotators reviewed the case,
 ### Usage
 
 To analyse the data, you can parse the JSON files using libraries like `json` in Python and extract the necessary information. Make sure to handle multiple JSON objects in the summary files.
+
+### Installation Instructions for Python Scripts
+
+The Python scripts in this repository are divided into two groups: Analysis scripts and LLM scripts. Below are the installation instructions for the required libraries for each group.
+
+#### Analysis Scripts (s4 - s6)
+
+The Analysis scripts (s4_annotator_agreement_v1_2.py, s5_productivity_plots_v1_1.py, s6_ascription_plots_v2_1.py) require the following libraries:
+
+```sh
+pip install pandas matplotlib numpy
+```
+
+#### LLM Scripts (s7 - s9)
+
+The LLM scripts (s7_gen_training_data_v2_0.py, s8_angelic_design_v2_2.py, s9_ADM_ascribe.py) require the instructions from https://github.com/GeorgeLuImmortal/Hierarchical-BERT-Model-with-Limited-Labelled-Data to be followed.
 
 ### License
 
