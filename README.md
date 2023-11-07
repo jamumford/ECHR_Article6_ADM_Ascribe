@@ -60,7 +60,7 @@ Mumford J, Atkinson K, Bench-Capon T. (2023). *Combining a Legal Knowledge Model
 
 5. **ADM files**:
     - Location: working directory
-    - Contains two files: a pdf file ECHR_ADFs.pdf containing a graphical illustration of the ADM provided as a handout to the annotators; a csv file art6_angelic_design.csv containing the ADM and acceptance conditions relations that are loaded and used by the python scripts.
+    - Contains two files: ECHR_ADFs.pdf containing a graphical illustration of the ADM provided as a handout to the annotators; and art6_angelic_design.csv containing the ADM and acceptance conditions relations that are loaded and used by the python scripts.
     - Note that a more up-to-date ADM can be accessed at https://github.com/jamumford/Human_Legal_Verdict_Prediction
 
 ### Data Format
